@@ -16,5 +16,6 @@ Run the following command to install the necessary packages
 pip3 install -r requirements.txt
 ```
 
-add the line ```source ~/.myCommand.sh``` to the end of the '.bashrc' file
-change the permission of the ```.myCommand.sh``` to executable
+add the line ```source ~/.myCommand.sh``` to the end of the '.bashrc' file.
+
+Change the permission of the ```.myCommand.sh``` to executable
