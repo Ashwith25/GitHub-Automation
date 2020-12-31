@@ -13,8 +13,8 @@ os.chdir(destPath)
 browser = webdriver.Chrome(executable_path='/home/ashwith/PythonProjects/chromedriver')
 
 browser.get("https://github.com/login")
-browser.find_element_by_xpath('//*[@id="login_field"]').send_keys(cd.username)
-browser.find_element_by_xpath('//*[@id="password"]').send_keys(cd.password)
+browser.find_element_by_xpath('//*[@id="login_field"]').send_keys(cd.username) #store your username in credentials.py file under variable name 'username'
+browser.find_element_by_xpath('//*[@id="password"]').send_keys(cd.password) #store your password in credentials.py file under variable name 'password'
 browser.find_element_by_xpath('//*[@id="login"]/div[4]/form/input[14]').click()
 sleep(1)
 browser.find_element_by_xpath('/html/body/div[1]/header/div[6]/details/summary').click()
