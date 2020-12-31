@@ -19,5 +19,6 @@ pip3 install -r requirements.txt
 add the line ```source ~/.myCommand.sh``` to the end of the '.bashrc' file.
 
 Change the permission of the ```.myCommand.sh``` to executable
+
 ---
 ps: Disable 2-factor authentication, if enabled.
